@@ -319,9 +319,7 @@ function App() {
             </p>
           </motion.div>
           
-          <motion.p variants={fadeInUp} className="font-sinhala text-[#b58b45] text-xl md:text-2xl tracking-[0.8em] mt-16 font-semibold">
-            විවාහ උත්සවය
-          </motion.p>
+          
         </motion.div>
       </section>
 
