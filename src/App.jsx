@@ -40,8 +40,8 @@ function App() {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
   const audioRef = useRef(null);
 
-  // Sihilel Wu Adaraye Sinhala Song
-  const calmAudioUrl = "/sihilel-audio.webm";
+  // Background MP3 Audio (WebM is not supported on all mobile devices)
+  const calmAudioUrl = "/calm-audio-2.mp3";
 
   // Scroll to top functionality
   const [showScrollTop, setShowScrollTop] = useState(false);
